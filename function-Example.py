@@ -35,12 +35,30 @@
 # test_fun()
 # print(num1) # 200 global variable value
 
-num1 = 200
-def test_fun():
-    global  num1
-    num1 = num1 + 100
+#global variable example
+# num1 = 200
+# def test_fun():
+#     global  num1
+#     num1 = num1 + 100
+#
+# test_fun()
+# print(num1)
 
-test_fun()
-print(num1)
+#closure (inner function accessing outer function variable
+# def outer():
+#     x=10 #local variable
+#     def inner():
+#         print(x)
+#     inner()
+# outer()
+
+# def outer():
+#     x=10
+#     def inner():
+#       # x = x + 5
+#        print(x)
+#     inner()
+#     print(x)
+# outer()
 
 
