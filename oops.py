@@ -116,7 +116,7 @@ class parent:
         self.x = 200
 class child(parent):
     def __init__(self):
-        super().__init__()
+        super().__init__() #we need to call the parent class constructor explicitly
         self.y = 300
 obj = child()
 print(obj.x)
