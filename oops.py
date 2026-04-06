@@ -6,6 +6,8 @@
 # s1 = Student()
 # print(s1.name)
 # print(s1.age)
+import unittest
+
 
 # constructor initialize Dynamically
 #first parameter is always refer to current object
@@ -111,19 +113,66 @@
 # print(Demo.validation("info@ashokit.in"))
 
 #Exmple - 12
-class parent:
-    def __init__(self):
-        self.x = 200
-class child(parent):
-    def __init__(self):
-        super().__init__() #we need to call the parent class constructor explicitly
-        self.y = 300
-obj = child()
-print(obj.x)
-print(obj.y)
+# class parent:
+#     def __init__(self):
+#         self.x = 200
+# class child(parent):
+#     def __init__(self):
+#         super().__init__() #we need to call the parent class constructor explicitly
+#         self.y = 300
+# obj = child()
+# print(obj.x)
+# print(obj.y)
+
+#Example 18
+#abstrac method
+# from abc import ABC, abstractmethod
+# class Shape(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+# class Rectangle(Shape):
+#     def area(self,width,height):
+#         self.width = width
+#         self.height = height
+#         return 2*self.width * self.height
+#
+# class Circle(Shape):
+#     def area(self,radius):
+#         self.radius = radius
+#         return 3.14*self.radius * self.radius
+#
+# circle = Circle()
+# result = circle.area(10)
+# print(result)
+#
+# rectangle = Rectangle()
+# result1 = rectangle.area(10,20)
+# print(result1)
 
 
+#Example - 19 (Dunder)
+# class Demo:
+#     def __str__(self):
+#         return "Hello"
+#
+# obj = Demo()
+# print(obj)
 
+#Example - 20
+class Test1():
+    def show(self):
+        print("test1")
+class Test2():
+    def show(self):
+        print("test2")
+# class Test3(Test1,Test2):
+#     pass
+class Test3(Test2,Test1):
+    pass
+
+obj = Test3()
+obj.show()
 
 
 
