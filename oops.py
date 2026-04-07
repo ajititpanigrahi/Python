@@ -160,19 +160,19 @@ import unittest
 # print(obj)
 
 #Example - 20
-class Test1():
-    def show(self):
-        print("test1")
-class Test2():
-    def show(self):
-        print("test2")
-# class Test3(Test1,Test2):
+# class Test1():
+#     def show(self):
+#         print("test1")
+# class Test2():
+#     def show(self):
+#         print("test2")
+# # class Test3(Test1,Test2):
+# #     pass
+# class Test3(Test2,Test1):
 #     pass
-class Test3(Test2,Test1):
-    pass
-
-obj = Test3()
-obj.show()
+#
+# obj = Test3()
+# obj.show()
 
 
 
