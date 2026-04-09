@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b651e4-ea1b-4d66-a165-95b5f2ae8f4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pandas_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_nulls.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy_ex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
     "Python.function-Example.executor": "Run",
     "Python.numpy_ex.executor": "Run",
     "Python.oops.executor": "Run",
+    "Python.pandas_ex.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -113,6 +116,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pandas_ex.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
