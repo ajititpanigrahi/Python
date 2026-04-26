@@ -1,9 +1,11 @@
+# set will not allow duplicates
 # s1 = { 1,1,2,2,3,3}
-# print(s1)
+# print(s1) # o/p - {1, 2, 3}
 #
-# list1 = [10,20,10,20,30]
-# s2= set(list1)
-# print(s2)
+list1 = [10,20,10,20,30]
+print(list1) # o/p - [10, 20, 10, 20, 30]
+s2= set(list1)
+print(s2) # o/p -  {10, 20, 30}
 #
 # empty = {}
 # print(type(empty)) # <class 'dict'>
