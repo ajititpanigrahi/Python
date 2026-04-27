@@ -8,3 +8,20 @@ seaborn
     2) Statistical plots
     3) Eazy Data analysis Visualization
     4) attractive charts with less code
+
+installation steps
+******************
+keep required libraries into requirements.txt file
+like the below
+numpy
+pandas
+openpyxl
+seaborn
+jupyter
+matplotlib
+
+run the below commands in the command prompt
+pip install -r .\requirements.txt
+
+for latest python.exe we need to install the below
+python.exe -m pip install --upgrade pip
