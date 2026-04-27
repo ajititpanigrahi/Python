@@ -1,2 +1,10 @@
 python3 -m venv venv
 source venv/bin/a
+
+seaborn
+*******
+    built on top of matplotlib
+    1) Beautiful Graphs
+    2) Statistical plots
+    3) Eazy Data analysis Visualization
+    4) attractive charts with less code
