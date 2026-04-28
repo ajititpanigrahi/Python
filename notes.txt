@@ -8,6 +8,7 @@ seaborn
     2) Statistical plots
     3) Eazy Data analysis Visualization
     4) attractive charts with less code
+    5) styled glass
 
 installation steps
 ******************
@@ -22,6 +23,16 @@ matplotlib
 
 run the below commands in the command prompt
 pip install -r .\requirements.txt
+pip install seaborn jupyter
+
+lunch the jupyter
+jupyter-notebook
 
 for latest python.exe we need to install the below
 python.exe -m pip install --upgrade pip
+
+IDE
+***
+Anaconda
+pycham
+VSCode
