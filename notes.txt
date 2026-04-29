@@ -23,7 +23,9 @@ matplotlib
 
 run the below commands in the command prompt
 pip install -r .\requirements.txt
-pip install seaborn jupyter
+
+we can install the below libraries in one line
+pip install numpy pandas seaborn matplotlib jupyter
 
 lunch the jupyter
 jupyter-notebook
