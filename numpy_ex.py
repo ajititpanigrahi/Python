@@ -9,7 +9,7 @@ import numpy as np
 # list1 = np.array([1,2,3,4,5,6])
 # print(list1)
 #
-# list2 = np.array([1,2,3],[4,5,6],[7,8,9])
+# list2 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 # print(list2)
 # print(list2.ndim)
 # print(list2.shape)
@@ -25,7 +25,7 @@ import numpy as np
 #
 # list2 = list1.reshape(2,3)
 # print(list2)
-
+#
 # list = np.array([1,2,3,4,5])
 # print(np.std(list))
 
@@ -51,8 +51,8 @@ import numpy as np
 
 #Example - 12
 # list = np.array([3,1,2])
-# # print(np.sort(list))
-# # print(np.where(list > 1))
+# print(np.sort(list))
+# print(np.where(list > 1))
 
 #Example - 13
 # list1 = np.array([10,20])
@@ -62,7 +62,7 @@ import numpy as np
 # print(np.split(list3,2))
 
 #Example - 14
-list = np.array([[1,2],[3,4]])
-print(np.linalg.matrix_transpose(list))
-print(np.linalg.inv(list))
-print(np.linalg.det(list))
+# list = np.array([[1,2],[3,4]])
+# print(np.linalg.matrix_transpose(list))
+# print(np.linalg.inv(list))
+# print(np.linalg.det(list))

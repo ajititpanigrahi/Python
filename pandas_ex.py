@@ -13,31 +13,32 @@ import pandas as pd
 # }
 # res = pd.DataFrame(data)
 # print(res)
+df = pd.read_csv('student_data.csv')
+print(df)
+print(df.head()) # display first 5 records
+print(df.tail()) # display last 5 records
+print(df.describe()) #statistics
+print(df.shape) #rows , columns
+print(df.columns) #columns
+print(df.index)
+print(df.values) #display column names
+print(df.info()) #structure
 
 #Ex 3
-# df = pd.read_csv('student_data.csv')
-# print(df)
-# print(df.head()) # display first 5 records
-# print(df.tail()) # display last 5 records
-# print(df.describe()) #statistics
-# print(df.shape) #rows , columns
-# print(df.columns) #columns
-# print(df.index)
-# print(df.values) #display column names
-# print(df.info()) #structure
+
 
 #Ex 4
-#df = pd.read_csv('student_data.csv')
+# df = pd.read_csv('student_data.csv')
 # print(df["Name"]) #display Name column
 # print(df[["Name","Age"]]) # display Name and Age column
 # print(df[df["Age"]]>20)
 # print(df[((df["Age"]>20) & (df["Age"]<25) )])
 
 #Ex 4
-# df = pd.read_csv('student_data.csv')
-# print(df.loc[0]) #display 0th row
-# print(df.loc[0:2]) # display 0,1,2 rows (3 rows)
-# print(df.loc[[0,2,4]])
+df = pd.read_csv('student_data.csv')
+print(df.loc[0]) #display 0th row
+print(df.loc[0:2]) # display 0,1,2 rows (3 rows)
+print(df.loc[[0,2,4]])
 
 #Ex 6
 # data = {
@@ -110,13 +111,13 @@ import pandas as pd
 # df.describe()
 
 #Ex 14
-data = {
-    "Name" : ["Ravi","Sita","Jhon","Ravi"],
-    "Dept" : ["IT","HR","IT","IT"],
-    "Marks" :[85,90,None,85]
-}
-df = pd.DataFrame(data)
-df["Marks"] = df["Marks"].fillna(df["Marks"].mean())
-print(df.drop_duplicates().groupby("Dept")["Marks"].mean())
+# data = {
+#     "Name" : ["Ravi","Sita","Jhon","Ravi"],
+#     "Dept" : ["IT","HR","IT","IT"],
+#     "Marks" :[85,90,None,85]
+# }
+# df = pd.DataFrame(data)
+# df["Marks"] = df["Marks"].fillna(df["Marks"].mean())
+# print(df.drop_duplicates().groupby("Dept")["Marks"].mean())
 
 

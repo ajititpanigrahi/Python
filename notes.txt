@@ -1,5 +1,11 @@
-python3 -m venv venv
-source venv/bin/a
+if it is macbook
+---------------
+python3 -m venv venv (venv is not mandatory)
+source venv/bin/activate
+
+if it is windows
+----------------
+venv/scripts/activate
 
 seaborn
 *******
@@ -38,3 +44,14 @@ IDE
 Anaconda
 pycham
 VSCode
+
+uvicorn - this is the server used to run the api calls
+fastapi - this is the api used for api call operations
+
+to run the api use the below command
+uvicorn apiCall:app --reload
+
+uvicorn - is the server
+apiCall - is the fileName
+app - is the instance created
+--reload - server restart
