@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b651e4-ea1b-4d66-a165-95b5f2ae8f4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apiCalls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images.tldr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiCalls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiCalls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -55,3 +55,10 @@ uvicorn - is the server
 apiCall - is the fileName
 app - is the instance created
 --reload - server restart
+
+once we execute uvicorn apiCall:app --reload we will get below url
+Uvicorn running on http://127.0.0.1:8000
+in browser http://127.0.0.1:8000/docs -- it will display the swaggerui
+FastAPI is supporting swaggerUI by default
+
+
