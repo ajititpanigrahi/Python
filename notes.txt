@@ -51,7 +51,7 @@ fastapi - this is the api used for api call operations
 to run the api use the below command
 uvicorn apiCall:app --reload
 
-uvicorn - is the server
+uvicorn - is the server (light weight http server)
 apiCall - is the fileName
 app - is the instance created
 --reload - server restart
@@ -60,5 +60,27 @@ once we execute uvicorn apiCall:app --reload we will get below url
 Uvicorn running on http://127.0.0.1:8000
 in browser http://127.0.0.1:8000/docs -- it will display the swaggerui
 FastAPI is supporting swaggerUI by default
+
+NoSQL - These are light weight databases , consumes less bandwidth, less burnden on hardware devices.
+DataBases - Ex:- company_db
+Collections(Tables) - Ex:- employees
+Data (Objects)(Documents) Ex:-{"emp_id":111,"emp_name":"emp1" ....}
+primary key(_id)
+
+Large Scale -- CassandraDB (commerical)
+MongoDB -- free - opensource
+here are below details methods of MongoDB
+1- find() -- read all documents/employees/objects
+2- insertOne() -- insert new document(new record)
+3- updateOne() -- used to update single record
+4- deleteOne() -- delete single record
+
+UseCases
+--------
+We create Agent the role of Agent is
+
+FastAPI -- MongoDB
+--motor(used to make async calls with the DB connection)
+
 
 

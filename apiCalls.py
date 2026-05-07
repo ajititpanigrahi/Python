@@ -72,15 +72,16 @@ def handle_post(emp: Employee):
 
     }
 
-@app.put("/emp/{emp_id}")
-def update_user(emp_id: int, emp: Employee):
-    if emp_id not in employees:
-        return {"error": "emp_id not found"}
+# @app.put("/emp/{emp_id}")
+# def update_empid(emp_id: int, emp: Employee):
+#     if emp_id not in employees:
+#         return {"error": "emp_id not found"}
+#
+#     # Replace the existing data
+#     employees[emp_id] = emp.dict()
+#
+#     return {
+#         "message": "emp updated successfully",
+#         "emp_id": employees[emp_id]
+#     }
 
-    # Replace the existing data
-    employees[emp_id] = emp.dict()
-
-    return {
-        "message": "emp updated successfully",
-        "emp_id": employees[emp_id]
-    }
