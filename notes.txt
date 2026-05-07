@@ -44,6 +44,7 @@ IDE
 Anaconda
 pycham
 VSCode
+google colab
 
 uvicorn - this is the server used to run the api calls
 fastapi - this is the api used for api call operations
@@ -82,5 +83,7 @@ We create Agent the role of Agent is
 FastAPI -- MongoDB
 --motor(used to make async calls with the DB connection)
 
+for transformers install the below lib
+pip install transformers
 
 
