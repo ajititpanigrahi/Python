@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b651e4-ea1b-4d66-a165-95b5f2ae8f4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mini_llm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
     </list>
@@ -46,6 +47,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.function-Example.executor": "Run",
     "Python.list_ex.executor": "Run",
+    "Python.mini_llm.executor": "Run",
     "Python.numpy_ex.executor": "Run",
     "Python.oops.executor": "Run",
     "Python.pandas_ex.executor": "Run",

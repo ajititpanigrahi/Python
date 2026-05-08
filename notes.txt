@@ -86,4 +86,22 @@ FastAPI -- MongoDB
 for transformers install the below lib
 pip install transformers
 
+multihead attention
+*********************
+input statement :-
+multi Head1: Grammar. chancellor
+multi Head2: context (on which context we are querying the LLM)
+multi Head3: Sentiment (Happy, Crazy,...)
+multi Head4:
+multi Head5:
+----
+----
 
+
+feed forward layer
+*****************
+ex:- after my session , I want to go for walk-in
+hyd - 90%
+walking - 80%
+gym - 20%
+tea - 10%
